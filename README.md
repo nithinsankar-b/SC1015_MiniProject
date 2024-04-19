@@ -29,19 +29,19 @@ Our dataset is taken from Kaggle: [Detecting bullying tweets 🤬 | PyTorch LSTM
 
 ## 🔎 Repository Overview
 1) [Data Preparation & Cleaning](#data)
-2) Exploratory Analysis
-   - Number Game
-   - Tokenization
-   - Word Cloud
-   - Sentiment Analysis
-3) Machine Learning
-   - Naive Bayes
-   - Logistic Regression
-   - Support Vector Machine
-   - Random Forest Classifier
-   - BERT
-4) Results + Comparison
-5) Conclusion
+2) [Exploratory Analysis](#analysis)
+   - [Number Game](#number)
+   - [Tokenization](#token)
+   - [Word Cloud](#word)
+   - [Sentiment Analysis](#sentiment)
+3) [Machine Learning](#machine)
+   - [Naive Bayes](#naive)
+   - [Logistic Regression](#logistic)
+   - [Support Vector Machine](#support)
+   - [Random Forest Classifier](#random)
+   - [BERT](#bert)
+4) [Results + Comparison](#results)
+5) [Conclusion](#conclusion)
 
 ## <a id = "data">🧼 Data Preparation & Cleaning</a>
 ### Raw Data
@@ -69,3 +69,4 @@ Our dataset is taken from Kaggle: [Detecting bullying tweets 🤬 | PyTorch LSTM
 > 3rd Column: Cleaned Tweet  
 <img width="862" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/74fa15ba-a331-4186-9944-599e38032f16">
 
+## <a id = "analysis">🧼 Exploratory Analysis</a>
