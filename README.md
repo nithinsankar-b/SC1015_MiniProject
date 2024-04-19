@@ -69,4 +69,9 @@ Our dataset is taken from Kaggle: [Detecting bullying tweets 🤬 | PyTorch LSTM
 > 3rd Column: Cleaned Tweet  
 <img width="862" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/74fa15ba-a331-4186-9944-599e38032f16">
 
-## <a id = "analysis">🧼 Exploratory Analysis</a>
+## <a id = "analysis">🔬 Exploratory Analysis</a>
+### <a id = "number">🔢 Number Game</a>
+
+### <a id = "token">🪙 Tokenization</a>
+
+### <a id = "word">🔠 Word Cloud</a>
