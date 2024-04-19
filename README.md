@@ -71,7 +71,17 @@ Our dataset is taken from Kaggle: [Detecting bullying tweets 🤬 | PyTorch LSTM
 
 ## <a id = "analysis">🔬 Exploratory Analysis</a>
 ### <a id = "number">🔢 Number Game</a>
+------------------------
 
 ### <a id = "token">🪙 Tokenization</a>
+------------------------
 
 ### <a id = "word">🔠 Word Cloud</a>
+------------------------
+
+### <a id = "sentiment">📈 Sentiment Analysis</a>
+------------------------
+
+## <a id = "machine">🦾 Machine Learning</a>
+### <a id = "number"> Naive Bayes</a>
+------------------------
