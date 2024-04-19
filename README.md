@@ -70,18 +70,33 @@ Our dataset is taken from Kaggle: [Detecting bullying tweets 🤬 | PyTorch LSTM
 <img width="862" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/74fa15ba-a331-4186-9944-599e38032f16">
 
 ## <a id = "analysis">🔬 Exploratory Analysis</a>
+To analyse and visualze the data we have cleaned to understand its underlying patterns, relationships and anomalies. We would be using data visualization techniques in hopes of generating insights that could help us better understand the data before applying any models or conducting any hypothesis testing.
 ### <a id = "number">🔢 Number Game</a>
-------------------------
+
 
 ### <a id = "token">🪙 Tokenization</a>
-------------------------
+
 
 ### <a id = "word">🔠 Word Cloud</a>
-------------------------
+
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
-------------------------
 
-## <a id = "machine">🦾 Machine Learning</a>
-### <a id = "number"> Naive Bayes</a>
-------------------------
+
+## <a id = "machine">🤖 Machine Learning</a>
+Machine learning is a bracnh of artificial intelligence that focuses on developing algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. Machine learning can identify patterns across large datasets that is impossible for the human to do so efficiently. The machine's performance can also be improved over time as they are more exposed to more data or by fine-tuning certain parameters.
+### <a id = "naive"> Naive Bayes</a>
+It is a classificaiton algorithm that assumes all predictors are independent of one another.
+#### 👍 Advantages
+> 🟢 Easy to understand and implement  
+> 🟢 Can be trained quickly and make fast predictions  
+> 🟢 Can solve multi-class prediction problems  
+#### 👎 Disadvantages
+> 🔴 Lousy estimator  
+
+#### 📇 Results
+Statistics  
+<img width="636" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/d5ec185f-249b-4170-a710-d930fba6c6ed">  
+
+Confusion Matrix  
+<img width="694" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/4a905cf3-b203-49f4-999d-02784a22f3fe">  
