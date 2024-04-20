@@ -25,7 +25,7 @@ Possibilities that this insights can be beneficial for:
 🟢 Aiding social media platorms in implementing and upholding their community standards with regards to cyberbullying  
 
 ## 📖 Datasets
-Our dataset is taken from Kaggle: [Detecting bullying tweets 🤬 | PyTorch LSTM & BERT 🤖](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
+Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
 
 ## 🔎 Repository Overview
 1) [Data Preparation & Cleaning](#data)
