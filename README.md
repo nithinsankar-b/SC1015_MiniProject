@@ -72,12 +72,21 @@ Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kag
 ## <a id = "analysis">🔬 Exploratory Analysis</a>
 To analyse and visualze the data we have cleaned to understand its underlying patterns, relationships and anomalies. We would be using data visualization techniques in hopes of generating insights that could help us better understand the data before applying any models or conducting any hypothesis testing.
 ### <a id = "number">🔢 Number Game</a>
-
+> The "numbers game" is used in our exploratory data analysis where we systematically examined numerical data to identify patterns, trends and anmoalies.
+> Here, we plot the number of tweets belonging to each category in the dataset as well as their relative percentages.  
+> <img width="862" alt="numbersgame" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6c8194f1-ad10-414d-94ab-67589bf57f15">
 
 ### <a id = "token">🪙 Tokenization</a>
+> Here, we used tokenization to break down a piece of text like sentences or paragraphs into individual worlds or "tokens".
+> From this plot, we can see the most common words in the tweets of our data.
+> <img width="826" alt="Tokenization" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/af0bb271-ca2e-4438-8253-7d91fbcbe5ea">
 
 
 ### <a id = "word">🔠 Word Cloud</a>
+> For this section, we used a WordCloud to present the most commonly seen words according to each **classified** category.
+> The presence of each words in a tweet will increase its corresponding probability towards being classified into its respective category.
+
+#### <a id = "gender"> 👫Gender Related </a>
 
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
