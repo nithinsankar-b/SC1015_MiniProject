@@ -67,12 +67,6 @@ Source Code on Google Collab:
 > 🟢 Remove picture links (EG: pic.twitter.com)  
 > 🟢 Remove shortwords (Length <= 2)  
   
-## Result
-> 1st Column: Raw tweet  
-> 2nd Column: Cyberbullying Category  
-> 3rd Column: Cleaned Tweet  
-<img width="862" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/74fa15ba-a331-4186-9944-599e38032f16">
-
 ## <a id = "analysis">🔬 Exploratory Analysis</a> 
 [Back to `Main` Content Page](#repository)  
   
