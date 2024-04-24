@@ -241,7 +241,7 @@ Learning Curve
 #### 👍 Advantages
 > 🟢 Often produces highly accurate predictions, even without extensive hyperparameter tuning.   
 > 🟢 By aggregating predictions from multiple decision trees, Random Forest is less prone to overfitting compared to individual decision trees.   
-> 🟢 Random Forest can efficiently handle large datasets with many features and instances, making it suitable for complex problems.
+> 🟢 Random Forest can efficiently handle large datasets with many features and instances, making it suitable for complex problems.  
 > 🟢 Can handle missing values in the dataset without the need for imputation, reducing preprocessing requirements.  
 #### 👎 Disadvantages
 > 🔴 The ensemble nature of it makes it less interpretable compared to simpler models, as it's challenging to trace predictions back to individual trees.     
@@ -275,7 +275,7 @@ Learning Curve
 #### 👎 Disadvantages
 > 🔴 Effectively doubles the computational cost of processing each input sequence compared to unidirectional LSTMs.     
 > 🔴 Require more memory to store the activations and gradients for both forward and backward processing directions.      
-> 🔴 Complex models with multiple layers and bidirectional processing, make them less interpretable compared to simpler models.
+> 🔴 Complex models with multiple layers and bidirectional processing, make them less interpretable compared to simpler models.  
 > 🔴 Prone to overfitting, especially when trained on small datasets or when the model capacity is too high relative to the dataset size.  
 
 #### 📇 Results
