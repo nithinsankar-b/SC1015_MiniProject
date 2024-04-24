@@ -116,7 +116,7 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
 > - For sentiment analysis, we used the the module TextBlob for natural language processing tasks. The sentiment analysis model considers various factors such as word polarity, intensity of sentiment, and context to determine the sentiment score for a given text.  
-> - This would help us in identifying sentiments - positive ➕, negative ➖, neutral; from a piece of text.
+> - This would help us in identifying sentiments - positive (➕), negative (➖), neutral; from a piece of text.
 >   
 > <img width="826" alt="sentiment" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/8b56f829-7aff-4cda-917f-27f9429f9f1f">
   
@@ -129,7 +129,14 @@ The sentiment score represents the polarity of the text (Positive, Negative, Neu
 [Back to Content Page](#repository)  
   
 Machine learning is a bracnh of artificial intelligence that focuses on developing algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. Machine learning can identify patterns across large datasets that is impossible for the human to do so efficiently. The machine's performance can also be improved over time as they are more exposed to more data or by fine-tuning certain parameters.
-### <a id = "naive"> Naive Bayes</a>
+
+> - [Naive Bayes](#naive)  
+> - [Logistic Regression](#logistic)  
+> - [Support Vector Machine](#support)  
+> - [Random Forest Classifier](#random)  
+> - [BERT](#bert)  
+
+### <a id = "naive"> 1️⃣ Naive Bayes</a>
 - It is a classificaiton algorithm that assumes all predictors are independent of one another.  
 - Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
 #### 👍 Advantages
@@ -141,7 +148,31 @@ Machine learning is a bracnh of artificial intelligence that focuses on developi
 
 #### 📇 Results
 Statistics  
-<img width="636" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/d5ec185f-249b-4170-a710-d930fba6c6ed">  
+> <img width="636" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/d5ec185f-249b-4170-a710-d930fba6c6ed">  
 
 Confusion Matrix  
-<img width="694" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/4a905cf3-b203-49f4-999d-02784a22f3fe">  
+> <img width="694" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/4a905cf3-b203-49f4-999d-02784a22f3fe">  
+
+ROC Curve
+> - We included this ROC curve to illustrate the balance between true positive rate (TPR) and false positive rate (FPR) across different thresholds.
+> - A model excels when its curve hugs the top-left corner, indicating high TPR and low FPR. Conversely, a curve closer to the diagonal line signifies poor ability to discriminate, no better than random chance.
+>  
+> ![roc curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/e8242cef-b4df-4ac7-95d0-651bd59c28b5)
+
+Learning Curve
+> A learning curve is a plot that shows how a model's performance, often measured by accuracy, changes as the size of the training dataset increases. It helps assess if the model benefits from more data and can reveal issues like overfitting or underfitting. Cross-validation scores are often included for a more reliable estimate of performance.
+>
+> **Difference between Learning Curve & ROC Curve**  
+> Learning Curve:  
+> 🟢 Shows how a model's performance changes with varying training dataset sizes.  
+> 🟢 Plots training and validation (or test) error/accuracy against the size of the training dataset.  
+> 🟢 Helps identify whether a model suffers from underfitting (high bias) or overfitting (high variance).
+>   
+> ROC Curve:  
+> 🟢 Evaluates the performance of a binary classification model across different classification thresholds.  
+> 🟢 Plots the true positive rate (TPR) against the false positive rate (FPR) for various threshold values.  
+> 🟢 Provides insights into the trade-off between sensitivity (true positive rate) and specificity (true negative rate).  
+> 🟢 The area under the ROC curve (AUC-ROC) summarizes the overall performance of the classifier.
+>
+> ![learning](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/12b200e4-ed66-48bc-be98-4ab8492ec835)
+
