@@ -36,7 +36,7 @@ Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kag
    - [Sentiment Analysis](#sentiment)
 3) [Machine Learning](#machine)
    - [Naive Bayes](#naive)
-   - [Logistic Regression](#logistic)
+   - [Multinomial Logistic Regression](#logistic)
    - [Support Vector Machine](#support)
    - [Random Forest Classifier](#random)
    - [BERT](#bert)
@@ -131,7 +131,7 @@ The sentiment score represents the polarity of the text (Positive, Negative, Neu
 Machine learning is a bracnh of artificial intelligence that focuses on developing algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. Machine learning can identify patterns across large datasets that is impossible for the human to do so efficiently. The machine's performance can also be improved over time as they are more exposed to more data or by fine-tuning certain parameters.
 
 > - [Naive Bayes](#naive)  
-> - [Logistic Regression](#logistic)  
+> - [Multinomial Logistic Regression](#logistic)  
 > - [Support Vector Machine](#support)  
 > - [Random Forest Classifier](#random)  
 > - [BERT](#bert)  
@@ -176,3 +176,16 @@ Learning Curve
 >
 > ![learning](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/12b200e4-ed66-48bc-be98-4ab8492ec835)
 
+### <a id = "logistic"> 2️⃣ Multinomial Logistic Regression</a>
+- Multinomial Logistic Regression extends Logistic Regression to handle multi-class classification tasks.  
+- This is done by predicting probabilities for each class and selecting the class with the highest probability as the predicted output.
+#### 👍 Advantages
+> 🟢 Provides probabilities for each category, allowing for nuanced predictions and quantification of uncertainty.  
+> 🟢 Enables decision-makers to assess the likelihood of different outcomes, aiding in informed decision-making.  
+> 🟢 Facilitates understanding of how predictors influence category selection, enhancing model interpretability.
+#### 👎 Disadvantages
+> 🔴 Assumes independence of observations, which may not hold in all datasets.  
+> 🔴 Violation can lead to biased parameter estimates and inaccurate inference.  
+> 🔴 Typically needs a larger sample size compared to a binary logistic regression.  
+
+#### 📇 Results
