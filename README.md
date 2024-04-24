@@ -69,7 +69,9 @@ Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kag
 > 3rd Column: Cleaned Tweet  
 <img width="862" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/74fa15ba-a331-4186-9944-599e38032f16">
 
-## <a id = "analysis">🔬 Exploratory Analysis</a>
+## <a id = "analysis">🔬 Exploratory Analysis</a> 
+[Back to Content Page](#repository)  
+  
 To analyse and visualze the data we have cleaned to understand its underlying patterns, relationships and anomalies. We would be using data visualization techniques in hopes of generating insights that could help us better understand the data before applying any models or conducting any hypothesis testing.
 ### <a id = "number">🔢 Number Game</a>
 > The "numbers game" is used in our exploratory data analysis where we systematically examined numerical data to identify patterns, trends and anmoalies.
@@ -102,6 +104,8 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 
 
 ## <a id = "machine">🤖 Machine Learning</a>
+[Back to Content Page](#repository)  
+  
 Machine learning is a bracnh of artificial intelligence that focuses on developing algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. Machine learning can identify patterns across large datasets that is impossible for the human to do so efficiently. The machine's performance can also be improved over time as they are more exposed to more data or by fine-tuning certain parameters.
 ### <a id = "naive"> Naive Bayes</a>
 It is a classificaiton algorithm that assumes all predictors are independent of one another.
