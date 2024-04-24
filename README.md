@@ -297,6 +297,7 @@ Classification Report
 ## <a id = "results"> 🏆 Comparison of Results</a>
 [Back to `Main` Content Page](#repository) 
 
+<img width="518" alt="Comparison" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/bb8263ac-8d9f-4a2b-9bf8-33557a7fccae">  
 
   
 ## <a id = "challenges"> 😢 Challenges Faced</a>
