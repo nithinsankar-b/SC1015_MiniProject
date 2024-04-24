@@ -91,28 +91,28 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 #### Word Cloud was generated for the following 
 > 🟢 Gender Categories  
 > 🟢 Religion Categories  
-> 🟢 Age Categories
-> 🟢 Ethnicity Categories
-> 🟢 Other Cyberbullying Categories
-> 🟢 Not Cyberbullying Related   
+> 🟢 Age Categories  
+> 🟢 Ethnicity Categories  
+> 🟢 Other Cyberbullying Categories  
+> 🟢 Not Cyberbullying Related     
 
 #### <a id = "gender"> 👫Gender Related </a>
-![gender](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/7edcdd10-cd1b-4d16-9c1c-01fb9fd026e2)
+>![gender](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/7edcdd10-cd1b-4d16-9c1c-01fb9fd026e2)
 
 #### <a id = "religion"> 🙏Religion Related </a>
-![religion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f402a453-50b0-4df4-a5f9-b67a6d46a9c2)
+>![religion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f402a453-50b0-4df4-a5f9-b67a6d46a9c2)
 
 #### <a id = "age"> 🧓👵Age Related </a>
-![age](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2d560124-2535-46fb-9132-e073bd196a7d)
+>![age](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2d560124-2535-46fb-9132-e073bd196a7d)
 
 #### <a id = "ethnicity"> :accessibility: Ethnicity Related </a>
-![ethnicity](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/bef99f02-e7f0-4996-bcc9-1168336cfc30)
+>![ethnicity](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/bef99f02-e7f0-4996-bcc9-1168336cfc30)
 
 #### <a id = "other"> 💎 Ethnicity Related </a>
-![other](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6c84016c-ade5-4a9a-8004-5d71b11f6f95)
+>![other](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6c84016c-ade5-4a9a-8004-5d71b11f6f95)
 
 #### <a id = "noncyber"> 🔮 Not Cyberbullying Related </a>
-![noncyber](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/3f44bd65-86c4-458b-a4a6-c7c1695cd573)
+>![noncyber](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/3f44bd65-86c4-458b-a4a6-c7c1695cd573)
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
 
