@@ -30,18 +30,15 @@ Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kag
 ## <a id ="repository">🔎 Repository Overview </a>
 > - This is a long documentation. Use this section links to quickly and conveniently jump to each section.  
 > - At every section there is the "[Back to `Main` Content Page](#repository)" to jump back and forth seeamlessly.
-
-Source Code on Google Collab:   
-> https://colab.research.google.com/drive/1I8de4BSMNXbqllhwWEUDWXAW-bA8hYfQ?authuser=0#scrollTo=REbXoS_0-poW  
-
   
-1) [Data Preparation & Cleaning](#data)
-2) [Exploratory Analysis](#analysis)
+1) [Source Code](#source)  
+2) [Data Preparation & Cleaning](#data)
+3) [Exploratory Analysis](#analysis)
    - [Number Game](#number)
    - [Tokenization](#token)
    - [Word Cloud](#word)
    - [Sentiment Analysis](#sentiment)
-3) [Machine Learning](#machine)
+4) [Machine Learning](#machine)
    - [Naive Bayes](#naive)
    - [Multinomial Logistic Regression](#logistic)
    - [Support Vector Machine](#support)
@@ -51,6 +48,10 @@ Source Code on Google Collab:
 6) [Challenges Faced](#challenges)
 7) [Conclusion](#conclusion)
 
+## <a id="source"> 💻 Source Code </a>
+Source Code on Google Collab:    
+> https://colab.research.google.com/drive/1I8de4BSMNXbqllhwWEUDWXAW-bA8hYfQ?authuser=0#scrollTo=REbXoS_0-poW  
+  
 ## <a id = "data">🧼 Data Preparation & Cleaning</a>
 ### Raw Data
 [Back to `Main` Content Page](#repository)  
