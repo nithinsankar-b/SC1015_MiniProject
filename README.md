@@ -27,7 +27,7 @@ Possibilities that this insights can be beneficial for:
 ## 📖 Datasets
 Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
 
-## 🔎 Repository Overview
+## <a id ="repository">🔎 Repository Overview </a>
 1) [Data Preparation & Cleaning](#data)
 2) [Exploratory Analysis](#analysis)
    - [Number Game](#number)
