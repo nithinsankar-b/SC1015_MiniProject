@@ -295,9 +295,9 @@ Classification Report
 ### Data Driven Insights & Recommendations
 > Our project could assist in identifying and curbing cyberbullying on social media platforms.
 
-`Targeted Intervention`
+`Targeted Intervention`  
 The identification of demographic-specific patterns in cyberbullying behavior can inform targeted intervention strategies tailored to address the vulnerabilities of different groups.  
-`Model Refinement`
+`Model Refinement`  
 Continuously refining and updating the cyberbullying detection models based on new data and insights is essential for maintaining their effectiveness over time.    
-`Community Engagement`
+`Community Engagement`  
 Engaging with community stakeholders, including social media platforms, is essential for fostering collaboration and implementing effective measures to combat cyberbullying.   
