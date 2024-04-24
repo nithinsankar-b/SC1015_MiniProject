@@ -205,11 +205,11 @@ Learning Curve
 - SVM classification finds the best hyperplane to separate data into different classes, maximizing the margin between them.  
 - It's effective for various classification tasks due to its ability to handle linear and non-linear separations through kernel functions.  
 #### 👍 Advantages
-> 🟢 Performs well even in high-dimensional spaces, making it suitable for complex datasets. 
-> 🟢 Aims to maximize the margin between classes, leading to a more generalizable model and reducing the risk of overfitting.  
+> 🟢 Performs well even in high-dimensional spaces, making it suitable for complex datasets.  
+> 🟢 Aims to maximize the margin between classes, leading to a more generalizable model and reducing the risk of overfitting.   
 > 🟢 Can handle non-linear decision boundaries using kernel functions like polynomial, radial basis function (RBF), and sigmoid, providing flexibility in modeling complex relationships.  
 #### 👎 Disadvantages
-> 🔴 Training SVM models can be computationally intensive, especially for large datasets, due to the quadratic optimization problem it solves.  
+> 🔴 Training models can be computationally intensive, especially for large datasets.    
 > 🔴 SVM is sensitive to noisy data and outliers, which can affect the placement of the decision boundary and degrade performance.    
 > 🔴 The decision boundary produced by SVM may be difficult to interpret, especially in higher dimensions or with non-linear kernels, making it challenging to understand the underlying relationships in the data.  
 
