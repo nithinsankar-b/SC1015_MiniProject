@@ -290,6 +290,9 @@ Learning Curve
 Classification Report
 ><img width="826" alt="Bi-lstm" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2ec54521-c2da-4b27-a572-38a075f586c7">
 
+## <a id = "results"> 🏆 Comparison of Results</a>
+[Back to `Main` Content Page](#repository) 
+
 ## <a id = "challenges"> 😢 Challenges Faced</a>
 [Back to `Main` Content Page](#repository)  
   
@@ -312,3 +315,16 @@ Continuously refining and updating the cyberbullying detection models based on n
   
 `Community Engagement`  
 Engaging with community stakeholders, including social media platforms, is essential for fostering collaboration and implementing effective measures to combat cyberbullying.   
+
+### Moving Forward
+> There are significant areas for improvement in our project that can be done in order to enhance its working and application in the broader view. Here are some features we wish to integrate in the future.  
+  
+`Advanceed Machine Learning Techniques`  
+Incorporating user feedback and preferences into cyberbullying detection systems can enhance their effectiveness and user acceptance.    
+  
+`Multimodal Analysis`  
+Integrating multimodal data sources, such as text, images, and videos, can provide a more comprehensive understanding of cyberbullying behaviors.    
+  
+`User-Centric Approaches`  
+Incorporating user feedback and preferences into cyberbullying detection systems can enhance their effectiveness and user acceptance.   
+
