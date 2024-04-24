@@ -151,27 +151,13 @@ Difference between Learning Curve & ROC Curve
   
 - It is a classificaiton algorithm that assumes all predictors are independent of one another.  
 - Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
-#### 👍 Advantages
-> 🟢 Easy to understand and implement  
-> 🟢 Can be trained quickly and make fast predictions  
-> 🟢 Can solve multi-class prediction problems  
-#### 👎 Disadvantages
-> 🔴 Lousy estimator  
   
 ### <a id = "logistic"> 2️⃣ Multinomial Logistic Regression</a>
 [Back to Machine Learning Content Page](#machine)  
 [Back to `Main` Content Page](#repository)  
   
 - Multinomial Logistic Regression extends Logistic Regression to handle multi-class classification tasks.  
-- This is done by predicting probabilities for each class and selecting the class with the highest probability as the predicted output.
-#### 👍 Advantages
-> 🟢 Provides probabilities for each category, allowing for nuanced predictions and quantification of uncertainty.  
-> 🟢 Enables decision-makers to assess the likelihood of different outcomes, aiding in informed decision-making.  
-> 🟢 Facilitates understanding of how predictors influence category selection, enhancing model interpretability.
-#### 👎 Disadvantages
-> 🔴 Assumes independence of observations, which may not hold in all datasets.  
-> 🔴 Violation can lead to biased parameter estimates and inaccurate inference.  
-> 🔴 Typically needs a larger sample size compared to a binary logistic regression.  
+- This is done by predicting probabilities for each class and selecting the class with the highest probability as the predicted output. 
   
 ### <a id = "support"> 3️⃣ Support Vector Machine</a>
 [Back to Machine Learning Content Page](#machine)  
@@ -179,14 +165,6 @@ Difference between Learning Curve & ROC Curve
   
 - SVM classification finds the best hyperplane to separate data into different classes, maximizing the margin between them.  
 - It's effective for various classification tasks due to its ability to handle linear and non-linear separations through kernel functions.  
-#### 👍 Advantages
-> 🟢 Performs well even in high-dimensional spaces, making it suitable for complex datasets.  
-> 🟢 Aims to maximize the margin between classes, leading to a more generalizable model and reducing the risk of overfitting.   
-> 🟢 Can handle non-linear decision boundaries using kernel functions like polynomial, radial basis function (RBF), and sigmoid, providing flexibility in modeling complex relationships.  
-#### 👎 Disadvantages
-> 🔴 Training models can be computationally intensive, especially for large datasets.    
-> 🔴 SVM is sensitive to noisy data and outliers, which can affect the placement of the decision boundary and degrade performance.    
-> 🔴 The decision boundary produced by SVM may be difficult to interpret, especially in higher dimensions or with non-linear kernels, making it challenging to understand the underlying relationships in the data.  
   
 ### <a id = "random"> 4️⃣ Random Forrest Classifier</a>
 [Back to Machine Learning Content Page](#machine)  
@@ -194,16 +172,7 @@ Difference between Learning Curve & ROC Curve
     
 - Random Forest Classifier is an ensemble learning technique for classification tasks.  
 - It builds multiple decision trees and outputs the mode of the classes predicted by individual trees.  
-- It's effective, versatile, and resistant to overfitting.tions through kernel functions.  
-#### 👍 Advantages
-> 🟢 Often produces highly accurate predictions, even without extensive hyperparameter tuning.   
-> 🟢 By aggregating predictions from multiple decision trees, Random Forest is less prone to overfitting compared to individual decision trees.   
-> 🟢 Random Forest can efficiently handle large datasets with many features and instances, making it suitable for complex problems.  
-> 🟢 Can handle missing values in the dataset without the need for imputation, reducing preprocessing requirements.  
-#### 👎 Disadvantages
-> 🔴 The ensemble nature of it makes it less interpretable compared to simpler models, as it's challenging to trace predictions back to individual trees.     
-> 🔴 Training this model can be computationally expensive, especially for large datasets with numerous trees and deep trees.      
-> 🔴 Random Forest tends to be biased towards the majority class in imbalanced datasets, potentially leading to suboptimal performance for minority classes.   
+- It's effective, versatile, and resistant to overfitting.tions through kernel functions.   
   
 ### <a id = "bert"> 5️⃣ Bi-LSTM</a>
 [Back to Machine Learning Content Page](#machine)  
@@ -211,17 +180,6 @@ Difference between Learning Curve & ROC Curve
   
 - Also known as Bidirectional Long Short-Term Memory.    
 - A type of recurrent neural network (RNN) that consists of 2 LSTM layers - processing in forward and backward directions.  
-
-#### 👍 Advantages
-> 🟢 Proccesses input sequences in both forward and backward directions helps in understanding the complete context of the input sequence.   
-> 🟢 Well-suited for capturing long-term dependencies in sequential data and can effectively model complex dependencies over extended sequences.   
-> 🟢 Random Forest can efficiently handle large datasets with many features and instances, making it suitable for complex problems.  
-> 🟢 The gated architecture of LSTM cells helps mitigate the vanishing gradient problem, making it more capable of learning and retaining information over long sequences.    
-#### 👎 Disadvantages
-> 🔴 Effectively doubles the computational cost of processing each input sequence compared to unidirectional LSTMs.     
-> 🔴 Require more memory to store the activations and gradients for both forward and backward processing directions.      
-> 🔴 Complex models with multiple layers and bidirectional processing, make them less interpretable compared to simpler models.  
-> 🔴 Prone to overfitting, especially when trained on small datasets or when the model capacity is too high relative to the dataset size.  
     
 ## <a id = "challenges"> 😢 Challenges Faced</a>
 [Back to `Main` Content Page](#repository)  
