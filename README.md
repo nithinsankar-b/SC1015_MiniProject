@@ -89,12 +89,12 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 > The presence of each words in a tweet will increase its corresponding probability towards being classified into its respective category.
 
 #### Word Cloud was generated for the following 
-> 🟢 Gender Categories  
-> 🟢 Religion Categories  
-> 🟢 Age Categories  
-> 🟢 Ethnicity Categories  
-> 🟢 Other Cyberbullying Categories  
-> 🟢 Not Cyberbullying Related     
+> 🟢 [Gender Categories](#gender)  
+> 🟢 [Religion Categories](#religion)  
+> 🟢 [Age Categories](#age)  
+> 🟢 [Ethnicity Categories](#ethnicity)  
+> 🟢 [Other Cyberbullying Categories](#other)  
+> 🟢 [Not Cyberbullying Related](#noncyber)     
 
 #### <a id = "gender"> 👫Gender Related </a>
 >![gender](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/7edcdd10-cd1b-4d16-9c1c-01fb9fd026e2)
@@ -115,7 +115,9 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 >![noncyber](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/3f44bd65-86c4-458b-a4a6-c7c1695cd573)
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
-
+> For sentiment analysis, we used the the module TextBlob for natural language processing tasks.
+> This would help us in identifying sentiments - positive ➕, negative ➖, neutral; from a piece of text.
+> <img width="826" alt="sentiment" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/8b56f829-7aff-4cda-917f-27f9429f9f1f">
 
 ## <a id = "machine">🤖 Machine Learning</a>
 [Back to Content Page](#repository)  
