@@ -139,24 +139,22 @@ Statistics
 >   - Precision
 >   - Recall
 >   - f1-score
->   - support
->   - accuracy
->   - macro average
->   - weighted average 
+>   - Support
+>   - Accuracy
+>   - Macro average
+>   - Weighted average 
 
 Confusion Matrix  
-> <img width="826" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/4a905cf3-b203-49f4-999d-02784a22f3fe">  
-
+> Shows the matrix of true vs predicted for each category    
+  
 ROC Curve
 > - We included this ROC curve to illustrate the balance between true positive rate (TPR) and false positive rate (FPR) across different thresholds.
 > - A model excels when its curve hugs the top-left corner, indicating high TPR and low FPR. Conversely, a curve closer to the diagonal line signifies poor ability to discriminate, no better than random chance.
->  
-> ![roc curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/e8242cef-b4df-4ac7-95d0-651bd59c28b5)
-
+  
 Learning Curve
 > A learning curve is a plot that shows how a model's performance, often measured by accuracy, changes as the size of the training dataset increases. It helps assess if the model benefits from more data and can reveal issues like overfitting or underfitting. Cross-validation scores are often included for a more reliable estimate of performance.
->
-> **Difference between Learning Curve & ROC Curve**  
+  
+Difference between Learning Curve & ROC Curve  
 > Learning Curve:  
 > ➡️ Shows how a model's performance changes with varying training dataset sizes.  
 > ➡️ Plots training and validation (or test) error/accuracy against the size of the training dataset.  
@@ -167,8 +165,6 @@ Learning Curve
 > ➡️ Plots the true positive rate (TPR) against the false positive rate (FPR) for various threshold values.  
 > ➡️ Provides insights into the trade-off between sensitivity (true positive rate) and specificity (true negative rate).  
 > ➡️ The area under the ROC curve (AUC-ROC) summarizes the overall performance of the classifier.
->
-> ![learning](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/12b200e4-ed66-48bc-be98-4ab8492ec835)
 
 ### <a id = "logistic"> 2️⃣ Multinomial Logistic Regression</a>
 [Back to Machine Learning Content Page](#machine)  
@@ -186,17 +182,10 @@ Learning Curve
 > 🔴 Typically needs a larger sample size compared to a binary logistic regression.  
 
 #### 📇 Results
-Statistics  
-><img width="826" alt="statistics logistic" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/61bb4416-95e0-416f-a2e0-ccf8634ba52f">  
-
-Confusion Matrix
->![confusion logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/91165e45-c5bd-48dd-9c3a-311ff5194321)  
-
-ROC Curve
->![roc logisti](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/edac2f89-b220-4069-9b52-41e264a7015e)  
-
-Learning Curve
-> ![learning logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/e7eb1811-c267-45e6-94c8-b638f4a0dac4)
+> - Statistics  
+> - Confusion Matrix
+> - ROC Curve   
+> - Learning Curve  
 
 ### <a id = "support"> 3️⃣ Support Vector Machine</a>
 [Back to Machine Learning Content Page](#machine)  
@@ -214,17 +203,10 @@ Learning Curve
 > 🔴 The decision boundary produced by SVM may be difficult to interpret, especially in higher dimensions or with non-linear kernels, making it challenging to understand the underlying relationships in the data.  
 
 #### 📇 Results
-Statistics  
-> <img width="826" alt="SVM Stats" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/310477c1-b2b7-484a-8db4-c345bca22ea6">  
-
-Confusion Matrix
-> ![svm confusion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f63de957-aafc-49af-8bca-3ec24fefef0a)  
-
-ROC Curve
-> ![svm roc](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/aa307f0d-0181-4b90-9cde-4a496fedea3f)  
-
-Learning Curve
-> ![svm learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/ff9ad1e4-20c3-4cda-b99f-673bf33768db)
+> - Statistics  
+> - Confusion Matrix
+> - ROC Curve   
+> - Learning Curve
 
 ### <a id = "random"> 4️⃣ Random Forrest Classifier</a>
 [Back to Machine Learning Content Page](#machine)  
@@ -244,17 +226,10 @@ Learning Curve
 > 🔴 Random Forest tends to be biased towards the majority class in imbalanced datasets, potentially leading to suboptimal performance for minority classes.   
 
 #### 📇 Results
-Statistics  
-> <img width="826" alt="forest statistics" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f0c9136e-647a-457a-b3fe-27e0dea45a3d">
-
-Confusion Matrix
-> ![forest confusion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6ee0caf5-7b30-4c1f-917f-c4153ef6b62c)
-
-ROC Curve
-> ![forest roc](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/1ca65944-bbba-46b4-8298-e4170a88693b)
-
-Learning Curve
-> ![forest learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/30b742f3-9670-4101-9833-c0c3ec5f3a0d)
+> - Statistics  
+> - Confusion Matrix
+> - ROC Curve   
+> - Learning Curve
 
 ### <a id = "bert"> 5️⃣ Bi-LSTM</a>
 [Back to Machine Learning Content Page](#machine)  
@@ -275,20 +250,10 @@ Learning Curve
 > 🔴 Prone to overfitting, especially when trained on small datasets or when the model capacity is too high relative to the dataset size.  
 
 #### 📇 Results
-> Due to the lengthy code, please refer to the source code for more detailed analysis.  
-
-Classification Report
-><img width="826" alt="Bi-lstm" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2ec54521-c2da-4b27-a572-38a075f586c7">
-
-## <a id = "results"> 🏆 Comparison of Results</a>
-[Back to `Main` Content Page](#repository) 
-
->  <img width="794" alt="comparison1" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/047b5c94-30ec-42ee-b420-ee30abf5609e">
->  
-> <img width="784" alt="Comparison2" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/da2a164b-60a6-4c23-8c50-af2de9ca78ba">  
-
-
-
+> - Statistics  
+> - Confusion Matrix
+> - ROC Curve   
+> - Learning Curve  
   
 ## <a id = "challenges"> 😢 Challenges Faced</a>
 [Back to `Main` Content Page](#repository)  
