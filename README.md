@@ -28,6 +28,7 @@ Possibilities that this insights can be beneficial for:
 Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
 
 ## <a id ="repository">🔎 Repository Overview </a>
+> This is a long documentation. Use this section links to quickly and conveniently jump to each section.  
 1) [Data Preparation & Cleaning](#data)
 2) [Exploratory Analysis](#analysis)
    - [Number Game](#number)
@@ -39,15 +40,14 @@ Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kag
    - [Multinomial Logistic Regression](#logistic)
    - [Support Vector Machine](#support)
    - [Random Forest Classifier](#random)
-   - [BERT](#bert)
+   - [Bi-LSTM](#bert)
 4) [Results + Comparison](#results)
 5) [Conclusion](#conclusion)
 
 ## <a id = "data">🧼 Data Preparation & Cleaning</a>
 ### Raw Data
 <img width="682" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/ff102811-5fc5-42a6-a5a9-1d06635cd886">
-
-
+  
 ### What we removed
 > 🟢 Remove mentions (@username)  
 > 🟢 Remove punctuations  
@@ -58,7 +58,7 @@ Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kag
 > 🟢 Remove numbers  
 > 🟢 Remove picture links (EG: pic.twitter.com)  
 > 🟢 Remove shortwords (Length <= 2)  
-
+  
 ### Functions
 <img width="730" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2d813fbc-7e2d-4749-b5fa-6f456b4084cc">
 
@@ -134,7 +134,7 @@ Machine learning is a bracnh of artificial intelligence that focuses on developi
 > - [Multinomial Logistic Regression](#logistic)  
 > - [Support Vector Machine](#support)  
 > - [Random Forest Classifier](#random)  
-> - [BERT](#bert)  
+> - [Bi-LSTM](#bert)  
 
 ### <a id = "naive"> 1️⃣ Naive Bayes</a>
 - It is a classificaiton algorithm that assumes all predictors are independent of one another.  
@@ -252,3 +252,24 @@ ROC Curve
 
 Learning Curve
 > ![forest learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/30b742f3-9670-4101-9833-c0c3ec5f3a0d)
+
+### <a id = "bert"> 4️⃣ Bi-LSTM</a>
+- Also known as Bidirectional Long Short-Term Memory.    
+- A type of recurrent neural network (RNN) that consists of 2 LSTM layers - processing in forward and backward directions.  
+
+#### 👍 Advantages
+> 🟢 Proccesses input sequences in both forward and backward directions helps in understanding the complete context of the input sequence.   
+> 🟢 Well-suited for capturing long-term dependencies in sequential data and can effectively model complex dependencies over extended sequences.   
+> 🟢 Random Forest can efficiently handle large datasets with many features and instances, making it suitable for complex problems.  
+> 🟢 The gated architecture of LSTM cells helps mitigate the vanishing gradient problem, making it more capable of learning and retaining information over long sequences.    
+#### 👎 Disadvantages
+> 🔴 Effectively doubles the computational cost of processing each input sequence compared to unidirectional LSTMs.     
+> 🔴 Require more memory to store the activations and gradients for both forward and backward processing directions.      
+> 🔴 Complex models with multiple layers and bidirectional processing, make them less interpretable compared to simpler models.
+> 🔴 Prone to overfitting, especially when trained on small datasets or when the model capacity is too high relative to the dataset size.  
+
+#### 📇 Results
+> Due to the lengthy code, please refer to the source code for more detailed analysis.  
+
+Classification Report
+><img width="826" alt="Bi-lstm" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2ec54521-c2da-4b27-a572-38a075f586c7">
