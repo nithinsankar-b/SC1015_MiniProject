@@ -28,7 +28,7 @@ Possibilities that this insights can be beneficial for:
 Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
 
 ## <a id ="repository">🔎 Repository Overview </a>
-> - This is a long documentation. Use this section links to quickly and conveniently jump to each section.  
+> - Use this section links to quickly and conveniently jump to each section.  
 > - At every section there is the "[Back to `Main` Content Page](#repository)" to jump back and forth seeamlessly.
   
 1) [Source Code](#source)  
@@ -69,10 +69,6 @@ Source Code on Google Collab:
 > 🟢 Remove picture links (EG: pic.twitter.com)  
 > 🟢 Remove shortwords (Length <= 2)  
   
-### Functions
-<img width="730" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2d813fbc-7e2d-4749-b5fa-6f456b4084cc">
-
-
 ## Result
 > 1st Column: Raw tweet  
 > 2nd Column: Cyberbullying Category  
@@ -86,14 +82,11 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 ### <a id = "number">🔢 Number Game</a>
 > The "numbers game" is used in our exploratory data analysis where we systematically examined numerical data to identify patterns, trends and anmoalies.
 > Here, we plot the number of tweets belonging to each category in the dataset as well as their relative percentages.  
-> <img width="862" alt="numbersgame" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6c8194f1-ad10-414d-94ab-67589bf57f15">
 
 ### <a id = "token">🪙 Tokenization</a>
 > Here, we used tokenization to break down a piece of text like sentences or paragraphs into individual worlds or "tokens".
 > From this plot, we can see the most common words in the tweets of our data.
-> <img width="826" alt="Tokenization" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/af0bb271-ca2e-4438-8253-7d91fbcbe5ea">
-
-
+  
 ### <a id = "word">🔠 Word Cloud</a>
 > For this section, we used a WordCloud to present the most commonly seen words according to each **classified** category.
 > The presence of each words in a tweet will increase its corresponding probability towards being classified into its respective category.
@@ -106,29 +99,10 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 > 🟢 [Other Cyberbullying Categories](#other)  
 > 🟢 [Not Cyberbullying Related](#noncyber)     
 
-#### <a id = "gender"> 👫Gender Related </a>
->![gender](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/7edcdd10-cd1b-4d16-9c1c-01fb9fd026e2)
-
-#### <a id = "religion"> 🙏Religion Related </a>
->![religion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f402a453-50b0-4df4-a5f9-b67a6d46a9c2)
-
-#### <a id = "age"> 🧓👵Age Related </a>
->![age](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2d560124-2535-46fb-9132-e073bd196a7d)
-
-#### <a id = "ethnicity"> :accessibility: Ethnicity Related </a>
->![ethnicity](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/bef99f02-e7f0-4996-bcc9-1168336cfc30)
-
-#### <a id = "other"> 💎 Ethnicity Related </a>
->![other](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6c84016c-ade5-4a9a-8004-5d71b11f6f95)
-
-#### <a id = "noncyber"> 🔮 Not Cyberbullying Related </a>
->![noncyber](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/3f44bd65-86c4-458b-a4a6-c7c1695cd573)
-
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
 > - For sentiment analysis, we used the the module TextBlob for natural language processing tasks. The sentiment analysis model considers various factors such as word polarity, intensity of sentiment, and context to determine the sentiment score for a given text.  
 > - This would help us in identifying sentiments - positive (➕), negative (➖), neutral; from a piece of text.
 >   
-> <img width="826" alt="sentiment" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/8b56f829-7aff-4cda-917f-27f9429f9f1f">
   
 The sentiment score represents the polarity of the text (Positive, Negative, Neutral). It is a floating point number ranging from -1.0 to +1.0.  
 > - If the sentiment score is close to 1.0, it indicates a very positive sentiment.  
