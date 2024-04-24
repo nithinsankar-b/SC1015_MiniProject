@@ -261,7 +261,7 @@ ROC Curve
 Learning Curve
 > ![forest learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/30b742f3-9670-4101-9833-c0c3ec5f3a0d)
 
-### <a id = "bert"> 4️⃣ Bi-LSTM</a>
+### <a id = "bert"> 5️⃣ Bi-LSTM</a>
 [Back to Machine Learning Content Page](#machine)  
   
 - Also known as Bidirectional Long Short-Term Memory.    
