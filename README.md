@@ -288,3 +288,16 @@ Learning Curve
 
 Classification Report
 ><img width="826" alt="Bi-lstm" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2ec54521-c2da-4b27-a572-38a075f586c7">
+
+## <a id = "conclusion"> 🥳 Conclusion</a>
+[Back to `Main` Content Page](#repository)  
+  
+### Data Driven Insights & Recommendations
+> Our project could assist in identifying and curbing cyberbullying on social media platforms.
+
+`Targeted Intervention`
+The identification of demographic-specific patterns in cyberbullying behavior can inform targeted intervention strategies tailored to address the vulnerabilities of different groups.  
+`Model Refinement`
+Continuously refining and updating the cyberbullying detection models based on new data and insights is essential for maintaining their effectiveness over time.    
+`Community Engagement`
+Engaging with community stakeholders, including social media platforms, is essential for fostering collaboration and implementing effective measures to combat cyberbullying.   
