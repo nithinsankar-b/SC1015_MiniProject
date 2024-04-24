@@ -289,6 +289,14 @@ Learning Curve
 Classification Report
 ><img width="826" alt="Bi-lstm" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2ec54521-c2da-4b27-a572-38a075f586c7">
 
+## <a id = "challenges"> 😢 Challenges Faced</a>
+[Back to `Main` Content Page](#repository)  
+  
+> This was our first machine learning project! So the learning curve was very steep, especially involving natural language proccessing w/ text data.  
+> We had to come up with unique exploratory data analysis that is relevant for our topic unlike conventional projects.  
+> We also faced a few issues in handling the installation of several of the packages used initially. We had to troubleshoot a few times at the start.  
+> Naturally working on such realistic projects that we did not have experience for results in a plethora of errors. The error handling was very time consuming.  
+
 ## <a id = "conclusion"> 🥳 Conclusion</a>
 [Back to `Main` Content Page](#repository)  
   
@@ -300,6 +308,6 @@ The identification of demographic-specific patterns in cyberbullying behavior ca
   
 `Model Refinement`  
 Continuously refining and updating the cyberbullying detection models based on new data and insights is essential for maintaining their effectiveness over time.    
-`Community Engagement`  
   
+`Community Engagement`  
 Engaging with community stakeholders, including social media platforms, is essential for fostering collaboration and implementing effective measures to combat cyberbullying.   
