@@ -10,7 +10,7 @@
 
 ## ❓About / Problem Statement
 Problem Statement  
-In today's interconnected world, social media have become central to our communication and our means of self-expression. However, this also gives rise to cyberbullying which can affect individuals mental health and well-being. Our motivation is to cultivate a safer online environment.
+> In today's interconnected world, social media have become central to our communication and our means of self-expression. However, this also gives rise to cyberbullying which can affect individuals mental health and well-being. Our motivation is to cultivate a safer online environment.
 
 Aim: Detect & classify offensive or abusive language in tweets as cyberbullying using machine learning algorithms
 
