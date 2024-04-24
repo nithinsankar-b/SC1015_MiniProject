@@ -148,10 +148,10 @@ Machine learning is a bracnh of artificial intelligence that focuses on developi
 
 #### 📇 Results
 Statistics  
-> <img width="636" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/d5ec185f-249b-4170-a710-d930fba6c6ed">  
+> <img width="826" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/d5ec185f-249b-4170-a710-d930fba6c6ed">  
 
 Confusion Matrix  
-> <img width="694" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/4a905cf3-b203-49f4-999d-02784a22f3fe">  
+> <img width="826" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/4a905cf3-b203-49f4-999d-02784a22f3fe">  
 
 ROC Curve
 > - We included this ROC curve to illustrate the balance between true positive rate (TPR) and false positive rate (FPR) across different thresholds.
@@ -190,7 +190,7 @@ Learning Curve
 
 #### 📇 Results
 Statistics  
-><img width="218" alt="statistics logistic" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/61bb4416-95e0-416f-a2e0-ccf8634ba52f">  
+><img width="826" alt="statistics logistic" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/61bb4416-95e0-416f-a2e0-ccf8634ba52f">  
 
 Confusion Matrix
 >![confusion logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/91165e45-c5bd-48dd-9c3a-311ff5194321)  
@@ -199,4 +199,29 @@ ROC Curve
 >![roc logisti](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/edac2f89-b220-4069-9b52-41e264a7015e)  
 
 Learning Curve
-> ![learning logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/e7eb1811-c267-45e6-94c8-b638f4a0dac4)  
+> ![learning logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/e7eb1811-c267-45e6-94c8-b638f4a0dac4)
+
+### <a id = "support"> 3️⃣ Support Vector Machine</a>
+- SVM classification finds the best hyperplane to separate data into different classes, maximizing the margin between them.  
+- It's effective for various classification tasks due to its ability to handle linear and non-linear separations through kernel functions.  
+#### 👍 Advantages
+> 🟢 Performs well even in high-dimensional spaces, making it suitable for complex datasets. 
+> 🟢 Aims to maximize the margin between classes, leading to a more generalizable model and reducing the risk of overfitting.  
+> 🟢 Can handle non-linear decision boundaries using kernel functions like polynomial, radial basis function (RBF), and sigmoid, providing flexibility in modeling complex relationships.  
+#### 👎 Disadvantages
+> 🔴 Training SVM models can be computationally intensive, especially for large datasets, due to the quadratic optimization problem it solves.  
+> 🔴 SVM is sensitive to noisy data and outliers, which can affect the placement of the decision boundary and degrade performance.    
+> 🔴 The decision boundary produced by SVM may be difficult to interpret, especially in higher dimensions or with non-linear kernels, making it challenging to understand the underlying relationships in the data.  
+
+#### 📇 Results
+Statistics  
+> <img width="826" alt="SVM Stats" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/310477c1-b2b7-484a-8db4-c345bca22ea6">  
+
+Confusion Matrix
+> ![svm confusion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f63de957-aafc-49af-8bca-3ec24fefef0a)  
+
+ROC Curve
+> ![svm roc](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/aa307f0d-0181-4b90-9cde-4a496fedea3f)  
+
+Learning Curve
+> ![svm learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/ff9ad1e4-20c3-4cda-b99f-673bf33768db)  
