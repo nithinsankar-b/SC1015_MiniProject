@@ -115,16 +115,23 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 >![noncyber](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/3f44bd65-86c4-458b-a4a6-c7c1695cd573)
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
-> For sentiment analysis, we used the the module TextBlob for natural language processing tasks.
-> This would help us in identifying sentiments - positive ➕, negative ➖, neutral; from a piece of text.
+> - For sentiment analysis, we used the the module TextBlob for natural language processing tasks. The sentiment analysis model considers various factors such as word polarity, intensity of sentiment, and context to determine the sentiment score for a given text.  
+> - This would help us in identifying sentiments - positive ➕, negative ➖, neutral; from a piece of text.
+>   
 > <img width="826" alt="sentiment" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/8b56f829-7aff-4cda-917f-27f9429f9f1f">
+  
+The sentiment score represents the polarity of the text (Positive, Negative, Neutral). It is a floating point number ranging from -1.0 to +1.0.  
+> 🟢 If the sentiment score is close to 1.0, it indicates a very positive sentiment.  
+> 🟢 If the sentiment score is close to -1.0, it indicates a very negative sentiment.  
+> 🟢 If the sentiment score is around 0.0, it indicates a neutral sentiment.  
 
 ## <a id = "machine">🤖 Machine Learning</a>
 [Back to Content Page](#repository)  
   
 Machine learning is a bracnh of artificial intelligence that focuses on developing algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. Machine learning can identify patterns across large datasets that is impossible for the human to do so efficiently. The machine's performance can also be improved over time as they are more exposed to more data or by fine-tuning certain parameters.
 ### <a id = "naive"> Naive Bayes</a>
-It is a classificaiton algorithm that assumes all predictors are independent of one another.
+- It is a classificaiton algorithm that assumes all predictors are independent of one another.  
+- Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
 #### 👍 Advantages
 > 🟢 Easy to understand and implement  
 > 🟢 Can be trained quickly and make fast predictions  
