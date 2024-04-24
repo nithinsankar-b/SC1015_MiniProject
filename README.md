@@ -56,8 +56,6 @@ Source Code on Google Collab:
 ### Raw Data
 [Back to `Main` Content Page](#repository)  
   
-<img width="682" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/ff102811-5fc5-42a6-a5a9-1d06635cd886">
-  
 ### What we removed
 > 🟢 Remove mentions (@username)  
 > 🟢 Remove punctuations  
