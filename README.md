@@ -70,7 +70,7 @@ Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kag
 <img width="862" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/74fa15ba-a331-4186-9944-599e38032f16">
 
 ## <a id = "analysis">🔬 Exploratory Analysis</a> 
-[Back to Content Page](#repository)  
+[Back to `Main` Content Page](#repository)  
   
 To analyse and visualze the data we have cleaned to understand its underlying patterns, relationships and anomalies. We would be using data visualization techniques in hopes of generating insights that could help us better understand the data before applying any models or conducting any hypothesis testing.
 ### <a id = "number">🔢 Number Game</a>
@@ -126,7 +126,7 @@ The sentiment score represents the polarity of the text (Positive, Negative, Neu
 > - If the sentiment score is around 0.0, it indicates a neutral sentiment.  
 
 ## <a id = "machine">🤖 Machine Learning</a>
-[Back to Content Page](#repository)  
+[Back to `Main` Content Page](#repository)  
   
 Machine learning is a bracnh of artificial intelligence that focuses on developing algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. Machine learning can identify patterns across large datasets that is impossible for the human to do so efficiently. The machine's performance can also be improved over time as they are more exposed to more data or by fine-tuning certain parameters.
 
@@ -138,7 +138,7 @@ Machine learning is a bracnh of artificial intelligence that focuses on developi
 
 ### <a id = "naive"> 1️⃣ Naive Bayes</a>
 [Back to Machine Learning Content Page](#machine)  
-[Back to **Main** Content Page](#repository)  
+[Back to `Main` Content Page](#repository)  
   
 - It is a classificaiton algorithm that assumes all predictors are independent of one another.  
 - Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
@@ -181,7 +181,7 @@ Learning Curve
 
 ### <a id = "logistic"> 2️⃣ Multinomial Logistic Regression</a>
 [Back to Machine Learning Content Page](#machine)  
-[Back to **Main** Content Page](#repository)  
+[Back to `Main` Content Page](#repository)  
   
 - Multinomial Logistic Regression extends Logistic Regression to handle multi-class classification tasks.  
 - This is done by predicting probabilities for each class and selecting the class with the highest probability as the predicted output.
@@ -209,7 +209,7 @@ Learning Curve
 
 ### <a id = "support"> 3️⃣ Support Vector Machine</a>
 [Back to Machine Learning Content Page](#machine)  
-[Back to **Main** Content Page](#repository)  
+[Back to `Main` Content Page](#repository)  
   
 - SVM classification finds the best hyperplane to separate data into different classes, maximizing the margin between them.  
 - It's effective for various classification tasks due to its ability to handle linear and non-linear separations through kernel functions.  
@@ -237,7 +237,7 @@ Learning Curve
 
 ### <a id = "random"> 4️⃣ Random Forrest Classifier</a>
 [Back to Machine Learning Content Page](#machine)  
-[Back to **Main** Content Page](#repository)  
+[Back to `Main` Content Page](#repository)  
     
 - Random Forest Classifier is an ensemble learning technique for classification tasks.  
 - It builds multiple decision trees and outputs the mode of the classes predicted by individual trees.  
@@ -267,7 +267,7 @@ Learning Curve
 
 ### <a id = "bert"> 5️⃣ Bi-LSTM</a>
 [Back to Machine Learning Content Page](#machine)  
-[Back to **Main** Content Page](#repository)  
+[Back to `Main` Content Page](#repository)  
   
 - Also known as Bidirectional Long Short-Term Memory.    
 - A type of recurrent neural network (RNN) that consists of 2 LSTM layers - processing in forward and backward directions.  
