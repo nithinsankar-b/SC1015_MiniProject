@@ -144,40 +144,33 @@ Difference between Learning Curve & ROC Curve
 > ➡️ Plots the true positive rate (TPR) against the false positive rate (FPR) for various threshold values.  
 > ➡️ Provides insights into the trade-off between sensitivity (true positive rate) and specificity (true negative rate).  
 > ➡️ The area under the ROC curve (AUC-ROC) summarizes the overall performance of the classifier.
-
-### <a id = "naive"> 1️⃣ Naive Bayes</a>
-[Back to Machine Learning Content Page](#machine)  
-[Back to `Main` Content Page](#repository)  
   
+[Back to Machine Learning Content Page](#machine)  
+[Back to `Main` Content Page](#repository) 
+  
+### <a id = "naive"> 1️⃣ Naive Bayes</a>
+ 
 - It is a classificaiton algorithm that assumes all predictors are independent of one another.  
 - Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
   
 ### <a id = "logistic"> 2️⃣ Multinomial Logistic Regression</a>
-[Back to Machine Learning Content Page](#machine)  
-[Back to `Main` Content Page](#repository)  
   
 - Multinomial Logistic Regression extends Logistic Regression to handle multi-class classification tasks.  
 - This is done by predicting probabilities for each class and selecting the class with the highest probability as the predicted output. 
   
 ### <a id = "support"> 3️⃣ Support Vector Machine</a>
-[Back to Machine Learning Content Page](#machine)  
-[Back to `Main` Content Page](#repository)  
-  
+    
 - SVM classification finds the best hyperplane to separate data into different classes, maximizing the margin between them.  
 - It's effective for various classification tasks due to its ability to handle linear and non-linear separations through kernel functions.  
   
 ### <a id = "random"> 4️⃣ Random Forrest Classifier</a>
-[Back to Machine Learning Content Page](#machine)  
-[Back to `Main` Content Page](#repository)  
-    
+      
 - Random Forest Classifier is an ensemble learning technique for classification tasks.  
 - It builds multiple decision trees and outputs the mode of the classes predicted by individual trees.  
 - It's effective, versatile, and resistant to overfitting.tions through kernel functions.   
   
 ### <a id = "bert"> 5️⃣ Bi-LSTM</a>
-[Back to Machine Learning Content Page](#machine)  
-[Back to `Main` Content Page](#repository)  
-  
+    
 - Also known as Bidirectional Long Short-Term Memory.    
 - A type of recurrent neural network (RNN) that consists of 2 LSTM layers - processing in forward and backward directions.  
     
