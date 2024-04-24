@@ -302,7 +302,11 @@ Classification Report
 ## <a id = "results"> 🏆 Comparison of Results</a>
 [Back to `Main` Content Page](#repository) 
 
-<img width="826" alt="Comparison" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/bb8263ac-8d9f-4a2b-9bf8-33557a7fccae">  
+>  <img width="794" alt="comparison1" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/047b5c94-30ec-42ee-b420-ee30abf5609e">
+>  
+> <img width="784" alt="Comparison2" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/da2a164b-60a6-4c23-8c50-af2de9ca78ba">  
+
+
 
   
 ## <a id = "challenges"> 😢 Challenges Faced</a>
