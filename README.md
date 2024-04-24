@@ -28,7 +28,8 @@ Possibilities that this insights can be beneficial for:
 Our dataset is taken from Kaggle: [Cyberbullying Classification](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
 
 ## <a id ="repository">🔎 Repository Overview </a>
-> This is a long documentation. Use this section links to quickly and conveniently jump to each section.  
+> This is a long documentation. Use this section links to quickly and conveniently jump to each section.
+> At every section there is the "[Back to `Main` Content Page](#repository)" to jump back and forth seeamlessly.  
 1) [Data Preparation & Cleaning](#data)
 2) [Exploratory Analysis](#analysis)
    - [Number Game](#number)
