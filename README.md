@@ -5,7 +5,7 @@
 | S/N | Team Members (FCS3) | Part |
 | :-: | :- | :- |
 | 1 | Babu Sankar Nithin Sankar | Data Preparation & Cleaning, Data Visualisation, Machine Learning Models |
-| 2 | Singh Gunraj | Exploratory Data Analysis, Presentation, Script, Github Repository & Report |
+| 2 | Singh Gunraj | Exploratory Data Analysis, Presentation, Script |
 | 3 | Lau Zhan You | Data Preparation & Cleaning, Data Visualization, Presentation, Script, Github Repository & Report |
 
 ## ❓About / Problem Statement
