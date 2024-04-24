@@ -224,4 +224,31 @@ ROC Curve
 > ![svm roc](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/aa307f0d-0181-4b90-9cde-4a496fedea3f)  
 
 Learning Curve
-> ![svm learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/ff9ad1e4-20c3-4cda-b99f-673bf33768db)  
+> ![svm learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/ff9ad1e4-20c3-4cda-b99f-673bf33768db)
+
+### <a id = "random"> 4️⃣ Random Forrest Classifier</a>
+- Random Forest Classifier is an ensemble learning technique for classification tasks.  
+- It builds multiple decision trees and outputs the mode of the classes predicted by individual trees.  
+- It's effective, versatile, and resistant to overfitting.tions through kernel functions.  
+#### 👍 Advantages
+> 🟢 Often produces highly accurate predictions, even without extensive hyperparameter tuning.   
+> 🟢 By aggregating predictions from multiple decision trees, Random Forest is less prone to overfitting compared to individual decision trees.   
+> 🟢 Random Forest can efficiently handle large datasets with many features and instances, making it suitable for complex problems.
+> 🟢 Can handle missing values in the dataset without the need for imputation, reducing preprocessing requirements.  
+#### 👎 Disadvantages
+> 🔴 The ensemble nature of it makes it less interpretable compared to simpler models, as it's challenging to trace predictions back to individual trees.     
+> 🔴 Training this model can be computationally expensive, especially for large datasets with numerous trees and deep trees.      
+> 🔴 Random Forest tends to be biased towards the majority class in imbalanced datasets, potentially leading to suboptimal performance for minority classes.   
+
+#### 📇 Results
+Statistics  
+> <img width="826" alt="forest statistics" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f0c9136e-647a-457a-b3fe-27e0dea45a3d">
+
+Confusion Matrix
+> ![forest confusion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6ee0caf5-7b30-4c1f-917f-c4153ef6b62c)
+
+ROC Curve
+> ![forest roc](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/1ca65944-bbba-46b4-8298-e4170a88693b)
+
+Learning Curve
+> ![forest learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/30b742f3-9670-4101-9833-c0c3ec5f3a0d)
