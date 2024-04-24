@@ -135,7 +135,14 @@ Machine learning is a bracnh of artificial intelligence that focuses on developi
 
 #### 📇 Results
 Statistics  
-> <img width="826" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/d5ec185f-249b-4170-a710-d930fba6c6ed">  
+> - Shows a classification report on:
+>   - Precision
+>   - Recall
+>   - f1-score
+>   - support
+>   - accuracy
+>   - macro average
+>   - weighted average 
 
 Confusion Matrix  
 > <img width="826" alt="image" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/4a905cf3-b203-49f4-999d-02784a22f3fe">  
