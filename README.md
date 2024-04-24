@@ -104,7 +104,7 @@ The sentiment score represents the polarity of the text (Positive, Negative, Neu
 ## <a id = "machine">🤖 Machine Learning</a>
 [Back to `Main` Content Page](#repository)  
   
-Machine learning is a bracnh of artificial intelligence that focuses on developing algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. Machine learning can identify patterns across large datasets that is impossible for the human to do so efficiently. The machine's performance can also be improved over time as they are more exposed to more data or by fine-tuning certain parameters.
+We used algorithms and statistical models that allow us to learn from our data and make any predicitons or decisions without explicitly programming it. It helps us identify patterns across our large datasets efficiently.
 
 > - [Naive Bayes](#naive)  
 > - [Multinomial Logistic Regression](#logistic)  
