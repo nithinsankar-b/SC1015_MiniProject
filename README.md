@@ -84,18 +84,17 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 > The presence of each words in a tweet will increase its corresponding probability towards being classified into its respective category.
 
 #### Word Cloud was generated for the following 
-> 🟢 [Gender Categories](#gender)  
-> 🟢 [Religion Categories](#religion)  
-> 🟢 [Age Categories](#age)  
-> 🟢 [Ethnicity Categories](#ethnicity)  
-> 🟢 [Other Cyberbullying Categories](#other)  
-> 🟢 [Not Cyberbullying Related](#noncyber)     
+> - Gender Categories 
+> - Religion Categories  
+> - Age Categories  
+> - Ethnicity Categories  
+> - Other Cyberbullying Categories 
+> - Not Cyberbullying Related    
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
 > - For sentiment analysis, we used the the module TextBlob for natural language processing tasks. The sentiment analysis model considers various factors such as word polarity, intensity of sentiment, and context to determine the sentiment score for a given text.  
 > - This would help us in identifying sentiments - positive (➕), negative (➖), neutral; from a piece of text.
->   
-  
+    
 The sentiment score represents the polarity of the text (Positive, Negative, Neutral). It is a floating point number ranging from -1.0 to +1.0.  
 > - If the sentiment score is close to 1.0, it indicates a very positive sentiment.  
 > - If the sentiment score is close to -1.0, it indicates a very negative sentiment.  
