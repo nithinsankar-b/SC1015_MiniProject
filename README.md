@@ -137,6 +137,8 @@ Machine learning is a bracnh of artificial intelligence that focuses on developi
 > - [Bi-LSTM](#bert)  
 
 ### <a id = "naive"> 1️⃣ Naive Bayes</a>
+[Back to Machine Learning Content Page](#machine)  
+  
 - It is a classificaiton algorithm that assumes all predictors are independent of one another.  
 - Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
 #### 👍 Advantages
@@ -177,6 +179,8 @@ Learning Curve
 > ![learning](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/12b200e4-ed66-48bc-be98-4ab8492ec835)
 
 ### <a id = "logistic"> 2️⃣ Multinomial Logistic Regression</a>
+[Back to Machine Learning Content Page](#machine)  
+  
 - Multinomial Logistic Regression extends Logistic Regression to handle multi-class classification tasks.  
 - This is done by predicting probabilities for each class and selecting the class with the highest probability as the predicted output.
 #### 👍 Advantages
@@ -202,6 +206,8 @@ Learning Curve
 > ![learning logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/e7eb1811-c267-45e6-94c8-b638f4a0dac4)
 
 ### <a id = "support"> 3️⃣ Support Vector Machine</a>
+[Back to Machine Learning Content Page](#machine)  
+  
 - SVM classification finds the best hyperplane to separate data into different classes, maximizing the margin between them.  
 - It's effective for various classification tasks due to its ability to handle linear and non-linear separations through kernel functions.  
 #### 👍 Advantages
@@ -227,6 +233,8 @@ Learning Curve
 > ![svm learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/ff9ad1e4-20c3-4cda-b99f-673bf33768db)
 
 ### <a id = "random"> 4️⃣ Random Forrest Classifier</a>
+[Back to Machine Learning Content Page](#machine)  
+  
 - Random Forest Classifier is an ensemble learning technique for classification tasks.  
 - It builds multiple decision trees and outputs the mode of the classes predicted by individual trees.  
 - It's effective, versatile, and resistant to overfitting.tions through kernel functions.  
@@ -254,6 +262,8 @@ Learning Curve
 > ![forest learning curve](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/30b742f3-9670-4101-9833-c0c3ec5f3a0d)
 
 ### <a id = "bert"> 4️⃣ Bi-LSTM</a>
+[Back to Machine Learning Content Page](#machine)  
+  
 - Also known as Bidirectional Long Short-Term Memory.    
 - A type of recurrent neural network (RNN) that consists of 2 LSTM layers - processing in forward and backward directions.  
 
