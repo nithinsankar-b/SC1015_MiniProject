@@ -88,6 +88,14 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 > For this section, we used a WordCloud to present the most commonly seen words according to each **classified** category.
 > The presence of each words in a tweet will increase its corresponding probability towards being classified into its respective category.
 
+#### Word Cloud was generated for the following 
+> 🟢 Gender Categories  
+> 🟢 Religion Categories  
+> 🟢 Age Categories
+> 🟢 Ethnicity Categories
+> 🟢 Other Cyberbullying Categories
+> 🟢 Not Cyberbullying Related   
+
 #### <a id = "gender"> 👫Gender Related </a>
 ![gender](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/7edcdd10-cd1b-4d16-9c1c-01fb9fd026e2)
 
@@ -99,6 +107,12 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 
 #### <a id = "ethnicity"> :accessibility: Ethnicity Related </a>
 ![ethnicity](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/bef99f02-e7f0-4996-bcc9-1168336cfc30)
+
+#### <a id = "other"> 💎 Ethnicity Related </a>
+![other](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/6c84016c-ade5-4a9a-8004-5d71b11f6f95)
+
+#### <a id = "noncyber"> 🔮 Not Cyberbullying Related </a>
+![noncyber](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/3f44bd65-86c4-458b-a4a6-c7c1695cd573)
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
 
