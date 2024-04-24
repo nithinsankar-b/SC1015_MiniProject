@@ -87,7 +87,16 @@ To analyse and visualze the data we have cleaned to understand its underlying pa
 > The presence of each words in a tweet will increase its corresponding probability towards being classified into its respective category.
 
 #### <a id = "gender"> 👫Gender Related </a>
+![gender](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/7edcdd10-cd1b-4d16-9c1c-01fb9fd026e2)
 
+#### <a id = "religion"> 🙏Religion Related </a>
+![religion](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/f402a453-50b0-4df4-a5f9-b67a6d46a9c2)
+
+#### <a id = "age"> 🧓👵Age Related </a>
+![age](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/2d560124-2535-46fb-9132-e073bd196a7d)
+
+#### <a id = "ethnicity"> :accessibility: Ethnicity Related </a>
+![ethnicity](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/bef99f02-e7f0-4996-bcc9-1168336cfc30)
 
 ### <a id = "sentiment">📈 Sentiment Analysis</a>
 
