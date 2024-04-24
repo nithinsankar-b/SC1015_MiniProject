@@ -118,23 +118,10 @@ Machine learning is a bracnh of artificial intelligence that focuses on developi
 > - [Multinomial Logistic Regression](#logistic)  
 > - [Support Vector Machine](#support)  
 > - [Random Forest Classifier](#random)  
-> - [Bi-LSTM](#bert)  
+> - [Bi-LSTM](#bert)
 
-### <a id = "naive"> 1️⃣ Naive Bayes</a>
-[Back to Machine Learning Content Page](#machine)  
-[Back to `Main` Content Page](#repository)  
-  
-- It is a classificaiton algorithm that assumes all predictors are independent of one another.  
-- Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
-#### 👍 Advantages
-> 🟢 Easy to understand and implement  
-> 🟢 Can be trained quickly and make fast predictions  
-> 🟢 Can solve multi-class prediction problems  
-#### 👎 Disadvantages
-> 🔴 Lousy estimator  
-
-#### 📇 Results
-Statistics  
+#### 📇 Results for each model are:
+Statistical Results  
 > - Shows a classification report on:
 >   - Precision
 >   - Recall
@@ -166,6 +153,19 @@ Difference between Learning Curve & ROC Curve
 > ➡️ Provides insights into the trade-off between sensitivity (true positive rate) and specificity (true negative rate).  
 > ➡️ The area under the ROC curve (AUC-ROC) summarizes the overall performance of the classifier.
 
+### <a id = "naive"> 1️⃣ Naive Bayes</a>
+[Back to Machine Learning Content Page](#machine)  
+[Back to `Main` Content Page](#repository)  
+  
+- It is a classificaiton algorithm that assumes all predictors are independent of one another.  
+- Naive Bayes Model is a simple yet powerful machine learning algorithm used for NLP applications like text classification tasks, particularly in natural language processing (NLP). It's based on Bayes' theorem with the "naive" assumption of feature independence. Despite its simplicity, Naive Bayes often performs well in practice. In our classification, it performs moderately accurate.
+#### 👍 Advantages
+> 🟢 Easy to understand and implement  
+> 🟢 Can be trained quickly and make fast predictions  
+> 🟢 Can solve multi-class prediction problems  
+#### 👎 Disadvantages
+> 🔴 Lousy estimator  
+  
 ### <a id = "logistic"> 2️⃣ Multinomial Logistic Regression</a>
 [Back to Machine Learning Content Page](#machine)  
 [Back to `Main` Content Page](#repository)  
@@ -180,13 +180,7 @@ Difference between Learning Curve & ROC Curve
 > 🔴 Assumes independence of observations, which may not hold in all datasets.  
 > 🔴 Violation can lead to biased parameter estimates and inaccurate inference.  
 > 🔴 Typically needs a larger sample size compared to a binary logistic regression.  
-
-#### 📇 Results
-> - Statistics  
-> - Confusion Matrix
-> - ROC Curve   
-> - Learning Curve  
-
+  
 ### <a id = "support"> 3️⃣ Support Vector Machine</a>
 [Back to Machine Learning Content Page](#machine)  
 [Back to `Main` Content Page](#repository)  
@@ -201,13 +195,7 @@ Difference between Learning Curve & ROC Curve
 > 🔴 Training models can be computationally intensive, especially for large datasets.    
 > 🔴 SVM is sensitive to noisy data and outliers, which can affect the placement of the decision boundary and degrade performance.    
 > 🔴 The decision boundary produced by SVM may be difficult to interpret, especially in higher dimensions or with non-linear kernels, making it challenging to understand the underlying relationships in the data.  
-
-#### 📇 Results
-> - Statistics  
-> - Confusion Matrix
-> - ROC Curve   
-> - Learning Curve
-
+  
 ### <a id = "random"> 4️⃣ Random Forrest Classifier</a>
 [Back to Machine Learning Content Page](#machine)  
 [Back to `Main` Content Page](#repository)  
@@ -224,13 +212,7 @@ Difference between Learning Curve & ROC Curve
 > 🔴 The ensemble nature of it makes it less interpretable compared to simpler models, as it's challenging to trace predictions back to individual trees.     
 > 🔴 Training this model can be computationally expensive, especially for large datasets with numerous trees and deep trees.      
 > 🔴 Random Forest tends to be biased towards the majority class in imbalanced datasets, potentially leading to suboptimal performance for minority classes.   
-
-#### 📇 Results
-> - Statistics  
-> - Confusion Matrix
-> - ROC Curve   
-> - Learning Curve
-
+  
 ### <a id = "bert"> 5️⃣ Bi-LSTM</a>
 [Back to Machine Learning Content Page](#machine)  
 [Back to `Main` Content Page](#repository)  
@@ -248,13 +230,7 @@ Difference between Learning Curve & ROC Curve
 > 🔴 Require more memory to store the activations and gradients for both forward and backward processing directions.      
 > 🔴 Complex models with multiple layers and bidirectional processing, make them less interpretable compared to simpler models.  
 > 🔴 Prone to overfitting, especially when trained on small datasets or when the model capacity is too high relative to the dataset size.  
-
-#### 📇 Results
-> - Statistics  
-> - Confusion Matrix
-> - ROC Curve   
-> - Learning Curve  
-  
+    
 ## <a id = "challenges"> 😢 Challenges Faced</a>
 [Back to `Main` Content Page](#repository)  
   
