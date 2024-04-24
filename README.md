@@ -189,3 +189,14 @@ Learning Curve
 > 🔴 Typically needs a larger sample size compared to a binary logistic regression.  
 
 #### 📇 Results
+Statistics  
+><img width="218" alt="statistics logistic" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/61bb4416-95e0-416f-a2e0-ccf8634ba52f">  
+
+Confusion Matrix
+>![confusion logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/91165e45-c5bd-48dd-9c3a-311ff5194321)  
+
+ROC Curve
+>![roc logisti](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/edac2f89-b220-4069-9b52-41e264a7015e)  
+
+Learning Curve
+> ![learning logistic](https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/e7eb1811-c267-45e6-94c8-b638f4a0dac4)  
