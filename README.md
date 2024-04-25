@@ -172,7 +172,14 @@ Difference between Learning Curve & ROC Curve
     
 - Also known as Bidirectional Long Short-Term Memory.    
 - A type of recurrent neural network (RNN) that consists of 2 LSTM layers - processing in forward and backward directions.  
-    
+   
+## <a id = "results"> 🏆 Comparison of Results</a>
+[Back to `Main` Content Page](#repository)  
+  
+<img width="794" alt="comparison1" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/b7517310-9feb-494a-a019-df14a640d737">  
+
+<img width="784" alt="Comparison2" src="https://github.com/donkey-king-kong/SC1015_MiniProject_Team1/assets/119853913/7153a266-1997-4485-a449-0b540e886a0c">  
+  
 ## <a id = "challenges"> 😢 Challenges Faced</a>
 [Back to `Main` Content Page](#repository)  
   
